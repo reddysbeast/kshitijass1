@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fairy tales</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Fairy tales</div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#trending">Trending</a></li>
+      <li><a href="#popular">Popular</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="intro" class="intro">
+    <div class="intro-left">
+      <h1>Welcome to Fairy tales</h1>
+      <p>Explore trending and popular movies & shows</p>
+      <a href="#trending" class="btn">Explore Trending</a>
+    </div>
+    <div class="intro-right">
+      <img src="animated.jpg" alt="Animated SVG" class="animated-svg" />
+    </div>
+  </section>
+
+  <!-- Trending Movies -->
+  <section id="trending" class="section">
+    <h2>Trending Movies</h2>
+    <p class="subtitle">Check out what everyone's watching now</p>
+    <div class="cards-container">
+      <div class="movie-card"><img src="hit.jpg"><div class="movie-info"><h3>HIT: The Third Case</h3><p>Crime thriller at its peak.</p><span class="duration">2h 10m</span></div><div class="hover-actions"><a href="#" class="watch-now">Watch Now</a><button class="watchlist">+</button></div></div>
+      <div class="movie-card"><img src="chhaava.jpg"><div class="movie-info"><h3>Chhaava</h3><p>Historic warrior drama.</p><span class="duration">2h 5m</span></div><div class="hover-actions"><a href="#" class="watch-now">Watch Now</a><button class="watchlist">+</button></div></div>
+      <div class="movie-card"><img src="pushpa.jpg"><div class="movie-info"><h3>pushpa 2</h3><p>rise of pushpa raj </p><span class="duration">2h 8m</span></div><div class="hover-actions"><a href="#" class="watch-now">Watch Now</a><button class="watchlist">+</button></div></div>
+      <div class="movie-card"><img src="sikandar.jpg"><div class="movie-info"><h3>Sikandar</h3><p>Political rise and fall.</p><span class="duration">2h 20m</span></div><div class="hover-actions"><a href="#" class="watch-now">Watch Now</a><button class="watchlist">+</button></div></div>
+      <div class="movie-card"><img src="retro.jpg"><div class="movie-info"><h3>Retro</h3><p>80s nostalgia brought to life.</p><span class="duration">1h 55m</span></div><div class="hover-actions"><a href="#" class="watch-now">Watch Now</a><button class="watchlist">+</button></div></div>
+    </div>
+  </section>
+
+  <!-- Popular Shows -->
+  <section id="popular" class="section">
+    <h2>Popular Shows</h2>
+    <p class="subtitle">Binge-worthy shows you can't miss</p>
+    <div class="cards-container">
+      <div class="movie-card"><img src="sikandar.jpg"><div class="movie-info"><h3>sikandar</h3><p>Drama </p><p> a political fall and rise.</p></div></div>
+      <div class="movie-card"><img src="retro.jpg"><div class="movie-info"><h3>Retro</h3><p>Comedy </p><p>Back to the golden age.</p></div></div>
+      <div class="movie-card"><img src="hit.jpg"><div class="movie-info"><h3>HIT Squad</h3><p>Action </p><p>Elite force crime unit.</p></div></div>
+      <div class="movie-card"><img src="chhaava.jpg"><div class="movie-info"><h3>Chhaava</h3><p>historic</p><p>a tale of our epic history</p></div></div>
+      <div class="movie-card"><img src="pushpa.jpg"><div class="movie-info"><h3>Pushpa/h3><p>Thriller | 2 Seasons</p><p>Every heartbeat matters.</p></div></div>
+    </div>
+  </section>
+
+  <!-- User Reviews -->
+  <section id="reviews" class="section">
+    <h2>User Reviews</h2>
+    <p class="subtitle">What our viewers say</p>
+    <div class="reviews-container">
+      <div class="review-card"><img src="user1.jpg" alt="Aryan"><h4>Aryan</h4><p>Absolutely amazing selections!</p></div>
+      <div class="review-card"><img src="user2.jpg" alt="Isha"><h4>Isha</h4><p>Best UI and top trending picks.</p></div>
+    </div>
+    <form class="review-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Review" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="#" target=\"_blank\">Terms & Conditions</a>
+      <a href="#" target=\"_blank\">Privacy Policy</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="fb.png" alt="Facebook" /></a>
+      <a href="#"><img src="x.png" alt="x" /></a>
+    </div>
+    <a href=\"#intro\" class=\"back-to-top\">Back to Top</a>
+  </footer>
+
+</body>
+</html>
